@@ -1,0 +1,306 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.video {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+   z-index: -1;
+}
+
+.video video {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+}
+
+.first {
+   height: 65vh;
+}
+
+
+header {
+   width: 100%;
+   height: 80px;
+   /* border-bottom: 1px solid rgba(255, 255, 255, 0.253); */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   top: 0px;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+.logo {
+   width: 150px;
+   height: 70px;
+   overflow: hidden;
+   color: white;
+   letter-spacing: 1px;
+   font-weight: 500;
+}
+
+.logo img {
+   width: 70px;
+   height: 70px;
+   filter: brightness(0) invert(1);
+}
+
+.acc__link {
+   border-radius: 100px;
+   width: 50px;
+   height: 50px;
+   border: 1px solid white;
+   margin-top: 10px;
+   cursor: pointer;
+   position: relative;
+}
+
+main .first h1 {
+   font-size: 70px;
+   margin-top: 35vh;
+   letter-spacing: 3px;
+}
+
+main .first span {
+   font-size: 20px;
+   letter-spacing: 3px;
+}
+
+.acc__link img {
+   width: 30px;
+   height: 30px;
+   filter: brightness(0) invert(1);
+}
+
+.menu {
+   width: 30px;
+   height: 30px;
+   display: inline-block;
+   cursor: pointer;
+   margin: 20px 20px;
+   position: relative;
+}
+
+.menu__palce {
+   position: absolute;
+   right: 20px;
+   top: 55px;
+   width: 250px;
+   height: 30vh;
+   background-color: rgba(255, 255, 255, 0.884);
+}
+
+.menu span {
+   display: block;
+   background-color: white;
+   border-radius: 20px;
+   width: 30px;
+   height: 5px;
+   position: relative;
+}
+
+.menu span::after {
+   content: '';
+   position: absolute;
+   top: 10px;
+   display: block;
+   background-color: white;
+   border-radius: 20px;
+   width: 30px;
+   height: 5px;
+}
+
+.menu span::before {
+   content: '';
+   position: absolute;
+   bottom: 10px;
+   display: block;
+   background-color: white;
+   border-radius: 20px;
+   width: 30px;
+   height: 5px;
+}
+
+/* -----------------------  */
+
+.menu__acclink {
+   position: absolute;
+   width: 400px;
+   height: 30vh;
+   background-color: rgba(20, 20, 20, 0.534);
+   z-index: 2;
+   right: 10vh;
+   top: 40px;
+   display: flex;
+   border-radius: 10px;
+}
+
+.image__user {
+   width: 120px;
+   height: 120px;
+   border: 1px solid black;
+   border-radius: 100px;
+   overflow: hidden;
+}
+
+.image__user img {
+   width: 120px;
+   height: 120px;
+}
+
+.user__info span {
+   color: white;
+   letter-spacing: 1px;
+   font-weight: 400;
+   margin: 10px;
+}
+
+.user__info {
+   margin-top: 10px;
+}
+
+hr {
+   margin: 0px;
+
+}
+
+h4 {
+   margin: 10px auto;
+   color: rgb(0, 0, 0);
+   letter-spacing: 1px;
+   font-weight: 500;
+   font-size: 18px;
+}
+
+.menu__palce ul {
+
+   list-style-type: none;
+   margin: 10px 0px;
+   padding: 0px;
+}
+
+
+
+.menu__palce ul a:hover {
+   background-color: rgba(160, 160, 160, 0.486);
+   transition: 1s ease;
+}
+
+
+.menu__palce ul li {
+   width: 100%;
+   height: 50px;
+   text-align: center;
+   margin: 0px;
+   padding: 0px;
+}
+
+.menu__palce ul li a::before {
+   content: '';
+   width: 20px;
+   height: 1px;
+   background-color: black;
+   border-radius: 30px;
+   display: inline-block;
+   margin: 5px 10px;
+}
+
+.menu__palce ul li a::after {
+   content: '';
+   width: 20px;
+   height: 1px;
+   background-color: black;
+   border-radius: 30px;
+   display: inline-block;
+   margin: 5px 10px;
+}
+
+.menu__palce ul a {
+   color: black;
+   display: block;
+   font-weight: 500;
+   letter-spacing: 2px;
+   padding: 10px;
+   transition: 1s ease;
+}
+
+.two h2 {
+   padding: 50px 0px;
+   letter-spacing: 2px;
+   display: block;
+   margin: 0 auto;
+   width: 80%;
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+   position: relative;
+   top: 20px;
+}
+
+.app__table {
+   width: 100%;
+   height: 100vh;
+
+   margin: 50px 0px 0px 0px;
+
+}
+
+.two {
+   background-color: rgba(24, 24, 24, 0.788);
+}
+
+.appbtn {
+   width: 100px;
+   height: 100px;
+   margin: 20px;
+   border-radius: 100px;
+   background-color: rgba(255, 255, 255, 0.753);
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   cursor: pointer;
+}
+
+.appbtn img {
+   width: 60px;
+   height: 60px;
+}
+
+.youtube__btn img {
+   width: 80px;
+}
+
+.app__nav hr {
+   width: 90%;
+}
+
+table {
+   color: black;
+   margin: 20px 0px;
+   background-color: white;
+   width: 100%;
+}
+
+td {
+   border: 1px solid black;
+}
+
+tr:first-child {
+   background-color: grey;
+}
+
+.active {
+   background-color: black;
+}
