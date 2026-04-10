@@ -1,0 +1,2 @@
+# registr-js-test
+test
